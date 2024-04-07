@@ -1,0 +1,74 @@
+{
+    "groceryListItems": [
+        {
+            "aisle": "Nevera",
+            "groceries": [
+                {
+                    "name": "Leche",
+                    "quantity": "1 carton",
+                    "avatar": {
+                        "type": "I",
+                        "source": "https://images.com/miklCarton.jpg"
+                    },
+                    "status": "pending"
+                },
+                {
+                    "name": "Mantequilla",
+                    "quantity": "4 barras",
+                    "avatar": {
+                        "type": "E",
+                        "code": "0x123456"
+                    },
+                    "status": "done"
+                }
+            ]
+        },
+        {
+            "aisle": "Panes",
+            "groceries": [
+                {
+                    "name": "Pan Tajado",
+                    "quantity": "1 bolsa",
+                    "avatar": {
+                        "type": "I",
+                        "source": "https://images.com/miklCarton.jpg"
+                    },
+                    "status": "pending"
+                },
+                {
+                    "name": "Croissants",
+                    "quantity": "1 cajasss",
+                    "avatar": {
+                        "type": "E",
+                        "code": "0x123456"
+                    },
+                    "status": "done"
+                }
+            ]
+        },
+        {
+            "aisle": "Congelados",
+            "groceries": [
+                {
+                    "name": "verdura congelada",
+                    "quantity": "1 bolsa",
+                    "avatar": {
+                        "type": "I",
+                        "source": "https://images.com/miklCarton.jpg"
+                    },
+                    "status": "pending"
+                },
+                {
+                    "name": "langostinos",
+                    "quantity": "1 bolsa",
+                    "avatar": {
+                        "type": "E",
+                        "code": "0x123456"
+                    },
+                    "status": "done",
+                    "lastBought": "01/01/2024"
+                }
+            ]
+        }
+    ]
+}

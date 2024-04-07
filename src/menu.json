@@ -1,0 +1,38 @@
+{
+    "Items": [
+        {
+            "sectionName": "section1",
+            "menuItems": [
+                {
+                    "Text": "Inbox"
+                },
+                {
+                    "Text": "Starred"
+                },
+                {
+                    "Text": "Send email"
+                },
+                {
+                    "Text": "Drafts"
+                }
+            ]
+        },
+        {
+            "sectionName": "section2",
+            "menuItems": [
+                {
+                    "Text": "All Mail"
+                },
+                {
+                    "Text": "Trash"
+                },
+                {
+                    "Text": "Spam"
+                },
+                {
+                    "Text": "Subscriptions"
+                }
+            ]
+        }
+    ]
+}
