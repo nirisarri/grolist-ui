@@ -1,4 +1,6 @@
-import { Avatar, Checkbox, Divider, IconButton, List, ListItem, ListItemAvatar, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";
+import { Avatar, Checkbox, Divider, IconButton, 
+    List, ListItem, ListItemAvatar, ListItemButton, ListItemIcon, ListItemText, ListSubheader, 
+    Typography } from "@mui/material";
 import { groceryItem, groceryList, groceryListSublist } from "../../layout/model";
 import GrocerySublistTitle from "./components/grocerySublistTitle";
 import GroceryItemRow from "./components/groceryItemRow";
@@ -130,7 +132,7 @@ function ShoppingPage() {
                 <Avatar
                     alt="Leche"
                     sx={{bgcolor:"pink"}}
-                >{String.fromCodePoint('0X1F95B')}</Avatar>
+                >{String.fromCodePoint(0X1F95B)}</Avatar>
             </ListItemAvatar>
             <ListItemText 
                 style={completedTaskStyle} 
@@ -167,7 +169,7 @@ function ShoppingPage() {
                 <Avatar
                     alt="Leche"
                     sx={{bgcolor:"pink"}}
-                >{String.fromCodePoint('0X1F95B')}</Avatar>
+                >{String.fromCodePoint(0X1F95B)}</Avatar>
             </ListItemAvatar>
             <ListItemText 
                 style={completedTaskStyle} 
@@ -204,7 +206,7 @@ function ShoppingPage() {
                 <Avatar
                     alt="Leche"
                     sx={{bgcolor:"pink"}}
-                >{String.fromCodePoint('0X1F95B')}</Avatar>
+                >{String.fromCodePoint(0X1F95B)}</Avatar>
             </ListItemAvatar>
             <ListItemText 
                 style={completedTaskStyle} 
@@ -213,7 +215,7 @@ function ShoppingPage() {
         </ListItemButton>
         </ListItem>
         <Divider component="li" />
-        <ListSubheader inset={"true"} color={"primary"}><Typography variant="h4">Panes</Typography></ListSubheader>
+        <ListSubheader color={"primary"}><Typography variant="h4">Panes</Typography></ListSubheader>
         <ListItem>
             <ListItemIcon>
                 <Checkbox />
@@ -269,7 +271,7 @@ function ShoppingPage() {
             </ListItemIcon>
             <ListItemText 
                         style={completedTaskStyle} 
-                        primary={String.fromCodePoint('0X1F95A') + " " +  "Huevos"}
+                        primary={String.fromCodePoint(0X1F95A) + " " +  "Huevos"}
                         secondary="6 cajas de 12"
                             />
         </ListItem>
@@ -280,7 +282,7 @@ function ShoppingPage() {
             </ListItemIcon>
             <ListItemIcon
                 >
-                <span>{String.fromCodePoint('0X1F95A')}</span> 
+                <span>{String.fromCodePoint(0X1F95A)}</span> 
             </ListItemIcon>
             <ListItemText 
                         style={completedTaskStyle} 
@@ -295,7 +297,7 @@ function ShoppingPage() {
             </ListItemIcon>
             <ListItemText
                 style={completedTaskStyle} >
-                <span>{String.fromCodePoint('0X1F95A')}</span> 
+                <span>{String.fromCodePoint(0X1F95A)}</span> 
             </ListItemText>
             <ListItemText 
                         style={completedTaskStyle} 
@@ -308,7 +310,7 @@ function ShoppingPage() {
         secondaryAction={
             <IconButton edge="end" aria-label="comments">
             <Typography>
-            <span>{String.fromCodePoint('0X1F95A')}</span> 
+            <span>{String.fromCodePoint(0X1F95A)}</span> 
             </Typography>
           </IconButton>
 
@@ -327,7 +329,7 @@ function ShoppingPage() {
         secondaryAction={
             <IconButton edge="end" aria-label="comments">
             <Typography >
-            <span>{String.fromCodePoint('0X1F95A')}</span> 
+            <span>{String.fromCodePoint(0X1F95A)}</span> 
             </Typography>
           </IconButton>
 

@@ -1,5 +1,5 @@
-import {List,ListItemText,ListItem, Typography, Divider } from "@mui/material";
-import {Menu, MenuSection, MenuItem} from "./model";
+import {List,ListItemText,ListItem, Divider } from "@mui/material";
+import {Menu, MenuSection} from "./model";
 
 // const MyListItem2 = ({sectionName, menuItems}:MenuSection) => {
 //   const zzz = ['a','b','c'];
@@ -18,11 +18,12 @@ import {Menu, MenuSection, MenuItem} from "./model";
 //   )
 // }
 
-function MyListItem3({menuSection}:MenuSection) {
+function MyListItem3({menuItems}:MenuSection) {
+
 
   return (
     <List>
-      {menuSection.menuItems.map((menuItem) => (
+      {menuItems.map((menuItem) => (
       <ListItem key={menuItem.Text}>
         <ListItemText primary={menuItem.Text}></ListItemText>
       </ListItem>
@@ -75,7 +76,7 @@ return(
 <>
   {
     exampleJson.Items.map((menuSection: MenuSection) => (<>
-      <MyListItem3 menuSection={menuSection}></MyListItem3>
+      <MyListItem3 sectionName={menuSection.sectionName} menuItems={menuSection.menuItems}></MyListItem3>
       <Divider />
     </>)
 //    <MyListItem sectionName={section.sectionName} menuItems={section.menuItems} ></MyListItem>

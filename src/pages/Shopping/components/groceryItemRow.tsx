@@ -1,6 +1,6 @@
 import { Avatar, Checkbox, ListItem, ListItemAvatar, ListItemButton, ListItemText } from "@mui/material"
 import { groceryItem } from "../../../layout/model"
-import React, { MouseEventHandler } from "react";
+import React from "react";
 
 
 export default function GroceryItemRow(prop: { groceryItem: groceryItem; }) {
@@ -25,7 +25,7 @@ export default function GroceryItemRow(prop: { groceryItem: groceryItem; }) {
 
         setChecked(newChecked);
     };
-    let value = 1;
+    const value = 1;
     return (
         <>
             <ListItem
