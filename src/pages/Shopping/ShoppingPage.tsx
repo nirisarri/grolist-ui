@@ -21,7 +21,7 @@ function ShoppingPage() {
                             "type": "I",
                             "source": "https://images.com/miklCarton.jpg"
                         },
-                        "status": "pending"
+                        "status": 1
                     },
                     {
                         "name": "Mantequilla",
@@ -30,7 +30,7 @@ function ShoppingPage() {
                             "type": "E",
                             "code": "0x123456"
                         },
-                        "status": "done"
+                        "status": 1
                     }
                 ]
             },
@@ -44,7 +44,7 @@ function ShoppingPage() {
                             "type": "I",
                             "source": "https://images.com/miklCarton.jpg"
                         },
-                        "status": "pending"
+                        "status": 0
                     },
                     {
                         "name": "Croissants",
@@ -53,7 +53,7 @@ function ShoppingPage() {
                             "type": "E",
                             "code": "0x123456"
                         },
-                        "status": "done"
+                        "status": 0
                     }
                 ]
             },
@@ -67,7 +67,7 @@ function ShoppingPage() {
                             "type": "I",
                             "source": "https://images.com/miklCarton.jpg"
                         },
-                        "status": "pending"
+                        "status": 1
                     },
                     {
                         "name": "langostinos",
@@ -76,7 +76,7 @@ function ShoppingPage() {
                             "type": "E",
                             "code": "0x123456"
                         },
-                        "status": "done",
+                        "status": 0,
                         "lastBought": "01/01/2024"
                     }
                 ]

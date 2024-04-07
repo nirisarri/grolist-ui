@@ -11,29 +11,22 @@ export default function GroceryItemRow(prop: { groceryItem: groceryItem; }) {
         textDecoration: 'line-through'
     }
     const props = prop.groceryItem;
-    const [checked, setChecked] = React.useState([1])
+    const [checked, setChecked] = React.useState(prop.groceryItem.status === 1)
     
-    const handleToggle = (value:number) => () =>{
-        const currentIndex = checked.indexOf(value);
-        const newChecked = [...checked];
-
-        if (currentIndex === -1) {
-            newChecked.push(value);
-        } else {
-            newChecked.splice(currentIndex, 1);
-        }
+    const handleToggle = () => () =>{
+        const newChecked = !checked;
 
         setChecked(newChecked);
     };
-    const value = 1;
+
     return (
         <>
             <ListItem
             secondaryAction={
                 <Checkbox 
                     edge="end"
-                    onChange={handleToggle(value)}
-                    checked = {checked.indexOf(value) !== -1}
+                    onChange={handleToggle()}
+                    checked = {checked}
                 />
             }>
                 <ListItemButton>
@@ -44,7 +37,7 @@ export default function GroceryItemRow(prop: { groceryItem: groceryItem; }) {
                         />
                     </ListItemAvatar>
                     <ListItemText 
-                        style={props.status === 'done' ? 
+                        style={checked ? 
                             completedTaskStyle : 
                             standardStyle } 
                         primary={props.name}

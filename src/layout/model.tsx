@@ -32,7 +32,7 @@ export type groceryItem = {
   name: string;
   quantity: string;
   avatar: avatarDefinition;
-  status: string;
+  status: number;
   lastBought?: string //date??
 }
 
