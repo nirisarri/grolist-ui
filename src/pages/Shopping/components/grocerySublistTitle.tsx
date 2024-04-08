@@ -6,7 +6,7 @@ type IGrocerySublistTitleProps = {
 
 function GrocerySublistTitle(props:IGrocerySublistTitleProps) {
     return (
-        <ListSubheader color={"primary"}><Typography variant="h4" >{props.name}</Typography></ListSubheader>
+        <ListSubheader color={"primary"}><Typography variant="h5" >{props.name}</Typography></ListSubheader>
     )
 }
 
